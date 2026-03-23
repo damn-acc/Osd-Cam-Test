@@ -5,11 +5,11 @@
         255.0,
         128.0
     ],
-    "compass_speed": 1.0,
+    "compass_speed": 100.0,
     "is_comp_ccw": false,
-    "osd_text": "VGU_TEST3",
+    "osd_text": "VGU_TEST5",
     "resolution": [
         640,
-        480
+        360
     ]
 }
