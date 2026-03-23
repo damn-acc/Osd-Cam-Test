@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build",
+            "type": "shell",
+            "command": "cmake -S . -B build && cmake --build build",
+            "problemMatcher": "$gcc"
+        },
+        {
+            "label": "Clean",
+            "type": "shell",
+            "command": "rm -rf build"
+        },
+        {
+            "label": "Run(cw)",
+            "type": "shell",
+            "command": "./build/cam_app --camera=/dev/video0",
+            "dependsOn": "Build"
+        },
+        {
+            "label": "Run(ccw)",
+            "type": "shell",
+            "command": "./build/cam_app --camera=/dev/video0 -cr",
+            "dependsOn": "Build"
+        }
+    ]
+}

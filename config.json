@@ -1,0 +1,15 @@
+{
+    "cam_path": "/dev/video0",
+    "color": [
+        0.0,
+        255.0,
+        128.0
+    ],
+    "compass_speed": 1.0,
+    "is_comp_ccw": false,
+    "osd_text": "VGU_TEST3",
+    "resolution": [
+        640,
+        480
+    ]
+}
